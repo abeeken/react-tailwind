@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1, h2, h3, h4, h5, h6, p, ul, ol{
+  @apply my-6;
+}
+
+a{
+  @apply text-blue-600;
+  transition: color .25s;
+  &:hover{
+    @apply text-blue-900 underline;
+  }
+}
+
+ul, ol{
+  @apply pl-5;
+}
+
+ul{
+  li{
+    @apply list-disc;
+  }
+}
+
+.first-mt-0{
+  &:first-child{
+    @apply mt-0;
+  }
+}
