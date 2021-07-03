@@ -9,3 +9,4 @@ This starter uses:
 - SCSS for styles
 - Tailwind for CSS with class pruning for production builds
 - Helmet for tweaking the header
+- A slightly updated basic test
